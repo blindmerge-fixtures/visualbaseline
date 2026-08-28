@@ -1,7 +1,7 @@
 {
   "name": "fixture-visual-baseline",
   "repo": "blindmerge-fixtures/visualbaseline",
-  "repo_visibility": "private",
+  "repo_visibility": "public",
   "slug": "visualbaseline",
   "spec_approval": "approved",
   "features": {
@@ -23,7 +23,7 @@
   "environments": [
     {
       "name": "staging",
-      "url": "https://example.com",
+      "url": "https://blindmerge-fixtures.github.io/visualbaseline/",
       "enabled": true,
       "schedule": {
         "kind": "cron",
