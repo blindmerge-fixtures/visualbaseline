@@ -1,4 +1,4 @@
 {
   "specs": ["summon.spec.md"],
-  "environments": { "staging": { "baseUrl": "https://example.com" } }
+  "environments": { "staging": { "baseUrl": "https://blindmerge-fixtures.github.io/visualbaseline/" } }
 }
