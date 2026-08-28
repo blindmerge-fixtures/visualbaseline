@@ -1,0 +1,33 @@
+{
+  "classifications": [
+    {
+      "outcome": "OUTCOME_SEMANTIC_ASSERTION",
+      "confidence": 1,
+      "payload": {
+        "semanticAssertion": {
+          "text": "The heading \\\"Visual baseline\\\" is visible."
+        }
+      }
+    },
+    {
+      "outcome": "OUTCOME_SEMANTIC_ASSERTION",
+      "confidence": 1,
+      "payload": {
+        "semanticAssertion": {
+          "text": "The status is \\\"Changed\\\"."
+        }
+      }
+    },
+    {
+      "outcome": "OUTCOME_ASSERT_VISUAL_UNCHANGED",
+      "confidence": 1,
+      "payload": {
+        "visualAssertion": {
+          "text": "The summary card is unchanged.",
+          "subjectSlug": "visual-baseline-summary"
+        }
+      }
+    }
+  ],
+  "promptHash": "fixture-visualbaseline-v1"
+}\n
