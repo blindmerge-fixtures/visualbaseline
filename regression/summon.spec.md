@@ -1,1 +1,10 @@
-# Visual Baseline Fixture\n<!-- summon:version:2 -->\n<!-- summon:approved:2026-08-28T00:00:00.000Z -->\n<!-- summon:approved-hash:sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 -->\n<!-- summon:interpretation-hash:sha256:533fa282ce3455b9d7a2ba5715a5876e2514367feb3af8bcf3adf239fc0f9332 -->\n\n## [Visual baseline](/)\n- The heading \"Visual baseline\" is visible.\n- The status is \"Changed\".\n- [visual: visual-baseline-summary] The summary card is unchanged.\n
+# Visual Baseline Fixture
+<!-- summon:version:2 -->
+<!-- summon:approved:2026-08-28T00:00:00.000Z -->
+<!-- summon:approved-hash:sha256:312cf586f17b22ed785a8f212c2d10c9838a8b162ad59c612d92bbbd0a3f82f5 -->
+<!-- summon:interpretation-hash:sha256:ad81589b05a2a848c09db656479ff0b005a9f393b839bf6408e8fe9dadc746dd -->
+
+## [Visual baseline](/)
+- The heading "Visual baseline" is visible.
+- The status is "Changed".
+- [visual: visual-baseline-summary] The summary card is unchanged.
