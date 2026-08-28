@@ -1,0 +1,4 @@
+{
+  "specs": ["summon.spec.md"],
+  "environments": { "staging": { "baseUrl": "https://example.com" } }
+}
