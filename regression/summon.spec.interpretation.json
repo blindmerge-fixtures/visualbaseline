@@ -5,7 +5,7 @@
       "confidence": 1,
       "payload": {
         "semanticAssertion": {
-          "text": "The heading \\\"Visual baseline\\\" is visible."
+          "text": "The heading \"Visual baseline\" is visible."
         }
       }
     },
@@ -14,7 +14,7 @@
       "confidence": 1,
       "payload": {
         "semanticAssertion": {
-          "text": "The status is \\\"Changed\\\"."
+          "text": "The status is \"Changed\"."
         }
       }
     },
@@ -30,4 +30,4 @@
     }
   ],
   "promptHash": "fixture-visualbaseline-v1"
-}\n
+}
