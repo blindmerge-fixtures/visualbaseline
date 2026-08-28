@@ -1,0 +1,55 @@
+{
+  "name": "fixture-visual-baseline",
+  "repo": "blindmerge-fixtures/visualbaseline",
+  "repo_visibility": "private",
+  "slug": "visualbaseline",
+  "spec_approval": "approved",
+  "features": {
+    "github": true,
+    "visual_diffs": true,
+    "env_targets": true,
+    "env_cron": true
+  },
+  "github": {
+    "triggerMode": "auto",
+    "skipDraftPrs": true,
+    "skipForkPrs": false,
+    "branchFilters": [],
+    "previewUrlSource": "static",
+    "previewDeploymentLabel": null
+  },
+  "registry_credentials": [],
+  "protected_access": [],
+  "environments": [
+    {
+      "name": "staging",
+      "url": "https://example.com",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "cron": "0 * * * *",
+        "timezone": "UTC"
+      }
+    }
+  ],
+  "mutations": [
+    {
+      "kind": "repo_commit_drift",
+      "sequence": "default_branch_head",
+      "introduce": { "when_due_hour": "odd", "commit_message": "fixture: introduce visual baseline change" },
+      "restore": { "when_due_hour": "even", "commit_message": "fixture: restore visual baseline" }
+    }
+  ],
+  "expectations": [
+    {
+      "name": "clean run matches the accepted visual baseline",
+      "selector": { "trigger": "cron", "environment": "staging", "state": "baseline" },
+      "assertions": { "status": "pass", "visual_diffs": { "exactly": 0 } }
+    },
+    {
+      "name": "controlled UI change requires visual review",
+      "selector": { "trigger": "cron", "environment": "staging", "state": "regression" },
+      "assertions": { "status": "fail", "visual_diffs": { "min": 1 }, "review": "approve-or-reject" }
+    }
+  ]
+}
