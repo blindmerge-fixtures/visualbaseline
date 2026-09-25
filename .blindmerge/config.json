@@ -1,4 +1,5 @@
 {
+  "projectId": "proj_fixture_visualbaseline",
   "specs": ["summon.spec.md"],
   "environments": { "staging": { "baseUrl": "https://blindmerge-fixtures.github.io/visualbaseline/" } }
 }

@@ -1,8 +1,8 @@
-# Visual Baseline Fixture
+# Spec
 <!-- summon:version:2 -->
-<!-- summon:approved:2026-08-28T00:00:00.000Z -->
-<!-- summon:approved-hash:sha256:5faa1f9e9462cba6053dee34f40bc6de2336e95f9918e730edfb6b1307cd3605 -->
-<!-- summon:interpretation-hash:sha256:d2648d239373e0a1e68f8fe3f2b1960e50630341fc90346d4a05a19694d3f66f -->
+<!-- summon:approved:2026-09-25T07:38:56.386Z -->
+<!-- summon:approved-hash:sha256:6e054591bbd62aeb0b6d576d2178f05b87a8af74b8a392b1c8295f6f954699a4 -->
+<!-- summon:interpretation-hash:sha256:04660b9daaf304d9e37d5a612d831fed471b98fe55e0f253488ce5cb7cc50a46 -->
 
 ## [Visual baseline](/visualbaseline/index.html)
 - The heading "Visual baseline" is visible.
